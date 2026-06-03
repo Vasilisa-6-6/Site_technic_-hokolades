@@ -1,6 +1,22 @@
+@keyframes color_change {
+    0% {color: cornflowerblue;}
+    12% {color: rgb(17, 0, 255);}
+    23% {color: rgb(140, 0, 255);}
+    34% {color: rgb(255, 6, 255);}
+    45% {color: rgb(255, 0, 0);}
+    56% {color: rgb(255, 136, 0);}
+    67% {color: rgb(255, 251, 0);}
+    78% {color: rgb(0, 255, 0);}
+    89% {color: rgb(0, 255, 221);}
+    100% {color: cornflowerblue;}
+
+}
+
+
 h1 {
     color:cornflowerblue;
     text-align: center;
+    animation: color_change 5s infinite;
 
 }
 
@@ -16,4 +32,10 @@ body {
 img {
     border: 20px #FD98FB solid;
     border-radius: 60px;
+    transition: transform 1s;
+
 }
+img:hover{
+    transform: scale(120%) translateX(7%);
+}
+
