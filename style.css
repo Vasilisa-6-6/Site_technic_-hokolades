@@ -4,12 +4,16 @@ h1 {
 
 }
 
+h2 {
+    color:cornflowerblue
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-
+    background-color: #D6FF6B;
 }
 
 img {
-    border: 20px crimson solid;
+    border: 20px #FD98FB solid;
     border-radius: 60px;
 }
